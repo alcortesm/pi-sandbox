@@ -3,7 +3,7 @@ BINARY := pi-sandbox
 .PHONY: build test vet clean
 
 build:
-	go build -o bin/$(BINARY) ./cmd
+	go build -o bin/$(BINARY) ./cmd/pi-sandbox
 
 test:
 	go test ./...
