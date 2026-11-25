@@ -10,7 +10,7 @@ on:
 jobs:
   ci:
     name: Run CI
-    runs-on: ${{ martix.os }}
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
